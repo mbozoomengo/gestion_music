@@ -1,0 +1,44 @@
+{
+  "songs": [
+    {
+      "id": 1,
+      "title": "Qui croira vera",
+      "artist": "KRYS_M",
+      "releaseDate": "2023-01-01",
+      "lyrics": "Paroles de la chanson",
+      "url": "http://127.0.0.1/assets/medias/KRYS_M.mp3"
+    },
+    {
+      "id": 2,
+      "title": "Beginning Visualizer",
+      "artist": "Joeboy",
+      "releaseDate": "2023-01-01",
+      "lyrics": "Paroles de la chanson",
+      "url": "http://y2mate.com/Joeboy_Beginning_Visualizer.mp3"
+    },
+    {
+      "id": 3,
+      "title": "All For You Visualizer",
+      "artist": "Joeboy",
+      "releaseDate": "2023-01-01",
+      "lyrics": "Paroles de la chanson",
+      "url": "http://y2mate.com/Joeboy_All_For_You_Visualizer.mp3"
+    },
+    {
+      "id": 4,
+      "title": "Baby Visualizer",
+      "artist": "Joeboy",
+      "releaseDate": "2023-01-01",
+      "lyrics": "Paroles de la chanson",
+      "url": "http://y2mate.com/Joeboy_Baby_Visualizer.mp3"
+    },
+    {
+      "id": 5,
+      "title": "Call Official Video",
+      "artist": "Joeboy",
+      "releaseDate": "2023-01-01",
+      "lyrics": "Paroles de la chanson",
+      "url": "http://y2mate.com/Joeboy_Call_Official_Video.mp3"
+    }
+  ]
+ }

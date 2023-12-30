@@ -1,0 +1,14 @@
+<!-- song-list.component.html -->
+<div>
+  <h2>Liste des Chansons</h2>
+
+  <ul>
+    <li *ngFor="let song of songs">
+      {{ song.title }} - {{ song.artist }}
+      <button (click)="deleteSong(song.id)">Supprimer</button>
+
+    </li>
+  </ul>
+</div>
+<div>
+</div>

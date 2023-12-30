@@ -1,0 +1,24 @@
+<!-- song-form.component.html -->
+<div>
+  <h2>Formulaire de Chanson</h2>
+
+  <form [formGroup]="songForm" (ngSubmit)="onSubmit()">
+    <label for="title">Titre:</label>
+    <input type="text" id="title" formControlName="title" />
+
+    <label for="artist">Artiste:</label>
+    <input type="text" id="artist" formControlName="artist" />
+
+    <label for="releaseDate">Date de sortie:</label>
+    <input type="text" id="releaseDate" formControlName="releaseDate" />
+
+    <label for="lyrics">Paroles:</label>
+    <textarea id="lyrics" formControlName="lyrics"></textarea>
+
+    <label for="url">URL de la Chanson:</label>
+    <input type="text" id="url" formControlName="url" />
+
+    <button type="submit">Ajouter</button>
+    <button type="button" (click)="updateSong()">Mettre à jour</button>
+  </form>
+</div>
